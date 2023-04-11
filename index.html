@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hold And Roll</title>
+    <!-- link -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="myContainer">
+      <div class="playerContent player1Content backgroundChange">
+        <h2>PLAYER 1</h2>
+        <div class="mainScore mainScore1">0</div>
+        <div class="rollAndHold">
+          <div class="rollButton rollButton1"><button>Roll</button></div>
+          <div class="holdButton holdButton1"><button>Hold</button></div>
+        </div>
+        <div class="currentScoreContent">
+          <h3>CURRENT SCORE</h3>
+          <div class="currentScore currentScore1">0</div>
+        </div>
+      </div>
+      <div class="diceContent">
+        <h2 class="hint">Player 1 Turn</h2>
+        <img
+          id="changePic"
+          width="200px"
+          height="200px"
+          src="images/rolled1.png"
+        /><br />
+        <a href="index.html"><button class="reset">Reset</button></a
+        ><br /><br />
+        <a class="rules" href="rules.html">How to Play?</a><br /><br />
+        <p class="footContent">
+          Made With Code
+          <a href="https://github.com/a-niraula56" target="_blank">@Github</a>
+        </p>
+      </div>
+      <div class="playerContent player2Content">
+        <h2>PLAYER 2</h2>
+        <div class="mainScore mainScore2">0</div>
+        <div class="rollAndHold">
+          <div class="rollButton rollButton2"><button>Roll</button></div>
+          <div class="holdButton holdButton2"><button>Hold</button></div>
+        </div>
+        <div class="currentScoreContent">
+          <h3>CURRENT SCORE</h3>
+          <div class="currentScore currentScore2">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/confetti.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: "Odibee Sans", cursive;
+  background-color: #05386b;
+  color: #edf5e1;
+}
+
+/* displaying 3 grids */
+.myContainer {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 2fr 1fr 2fr;
+  height: 100vh;
+}
+
+/* player  container */
+.playerContent {
+  background-color: #5cdb95;
+  border-radius: 10%;
+}
+.playerContent h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+/* the main score */
+.mainScore {
+  font-size: 200px;
+}
+/* buttons and current score */
+.rollAndHold {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+.rollAndHold button {
+  height: 50px;
+  width: 100px;
+  background: none;
+  border-radius: 15px;
+  border: 2px solid #edf5e1;
+  font-family: "Odibee Sans", cursive;
+  font-size: 30px;
+  cursor: pointer;
+}
+.currentScoreContent {
+  background-color: #05386b;
+  color: #edf5e1;
+  margin: 40px 40px 40px 40px;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* dice content */
+.diceContent {
+  align-self: center;
+  justify-self: center;
+}
+
+/* background change */
+.backgroundChange {
+  border: 10px solid white;
+}
+
+.hint {
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: yellow;
+  text-decoration: underline;
+}
+.reset {
+  height: 50px;
+  width: 100px;
+  background: none;
+  border-radius: 15px;
+  border: 2px solid #edf5e1;
+  font-family: "Odibee Sans", cursive;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.rules {
+  color: white;
+  text-decoration: none;
+}
+.footContent a {
+  color: red;
+}
+
+.rulesContainer {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+
+  margin-top: 7%;
+}
+ol {
+  list-style: none;
+}
+li {
+  margin: 20px;
+}
+.rulesContainer h2 {
+  color: yellow;
+  margin-left: 25%;
+}
+
+.backButton {
+  height: 50px;
+  width: 100px;
+  background: none;
+  border-radius: 15px;
+  border: 2px solid #edf5e1;
+  font-family: "Odibee Sans", cursive;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin-left: 25%;
+}
